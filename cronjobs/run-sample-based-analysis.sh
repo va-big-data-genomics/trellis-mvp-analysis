@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH=/usr/bin:/bin:/usr/local/bin:/opt/conda/bin
+source /home/jupyter/.bashrc
 
 papermill \
     /home/jupyter/notebooks/trellis_mvp_phase3_SampleBasedAnalysis.ipynb \
