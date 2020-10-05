@@ -1,7 +1,7 @@
-*/5 */1 * * * /home/jupyter/cronjob/run_sample_based_analysis.sh > /home/jupyter/cronjob/logs/sample.log 2>&1
-50 12 * * * /home/jupyter/cronjob/run_job_based_analysis.sh > /home/jupyter/cronjob/logs/job.log 2>&1
-00 12 * * * /home/jupyter/cronjob/run_qc_analysis.sh > /home/jupyter/cronjob/logs/qc.log 2>&1
+*/5 */1 * * * /home/jupyter/cronjobs/run-sample-based-analysis.sh > /home/jupyter/cronjobs/logs/sample.log 2>&1
+50 12 * * * /home/jupyter/cronjobs/run-job-based-analysis.sh > /home/jupyter/cronjobs/logs/job.log 2>&1
+00 12 * * * /home/jupyter/cronjobs/run-qc-analysis.sh > /home/jupyter/cronjobs/logs/qc.log 2>&1
 
-#25 0 * * * /home/jupyter/cronjob/run_sample_based_analysis.sh > /home/jupyter/cronjob/logs/sample.log 2>&1
-50 0 * * * /home/jupyter/cronjob/run_job_based_analysis.sh > /home/jupyter/cronjob/logs/job.log 2>&1
-00 0 * * * /home/jupyter/cronjob/run_qc_analysis.sh > /home/jupyter/cronjob/logs/qc.log 2>&1
+#25 0 * * * /home/jupyter/cronjobs/run-sample-based-analysis.sh > /home/jupyter/cronjobs/logs/sample.log 2>&1
+50 0 * * * /home/jupyter/cronjobs/run-job-based-analysis.sh > /home/jupyter/cronjobs/logs/job.log 2>&1
+00 0 * * * /home/jupyter/cronjobs/run-qc-analysis.sh > /home/jupyter/cronjobs/logs/qc.log 2>&1
