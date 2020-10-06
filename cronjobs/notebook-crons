@@ -1,4 +1,4 @@
-*/5 */1 * * * /home/jupyter/cronjobs/run-sample-based-analysis.sh > /home/jupyter/cronjobs/logs/sample.log 2>&1
+25 * * * * /home/jupyter/cronjobs/run-sample-based-analysis.sh > /home/jupyter/cronjobs/logs/sample.log 2>&1
 50 12 * * * /home/jupyter/cronjobs/run-job-based-analysis.sh > /home/jupyter/cronjobs/logs/job.log 2>&1
 00 12 * * * /home/jupyter/cronjobs/run-qc-analysis.sh > /home/jupyter/cronjobs/logs/qc.log 2>&1
 
