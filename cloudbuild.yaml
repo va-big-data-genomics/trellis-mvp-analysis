@@ -3,11 +3,5 @@ steps:
   args: [
          'cp',
          '-r',
-         'cronjobs',
-         'gs://${_TRELLIS_BUCKET}/analysis-notebooks/source/']
-- name: 'gcr.io/cloud-builders/gsutil'
-  args: [
-         'cp',
-         '-r',
          'notebooks',
          'gs://${_TRELLIS_BUCKET}/analysis-notebooks/source/']
