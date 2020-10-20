@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: [
+         'cp',
+         '-r',
+         'notebooks',
+         'gs://${_TRELLIS_BUCKET}/analysis-notebooks/source/']
